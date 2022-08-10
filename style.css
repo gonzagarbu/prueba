@@ -1,0 +1,65 @@
+/*Selector Universal*/
+* {
+    margin:0;
+    margin:0;
+
+}
+.menu-container {
+    background-color: rgb(0, 132, 255);
+    color:white;
+    padding: 20px 0;
+    display: flex;
+    /*Alinear Horizontalmente*/
+    justify-content: center;
+    /*flex puede ser: flex-end, flex-start, */
+}
+
+.menu {
+    border: 1px solid white;
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-container { 
+    background-color: rgb(205, 230, 245);
+    color:rgb(0, 132, 255);
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+      width: 70%;
+      height: 400px;
+      display: flex;
+      justify-content: space-around;
+      /* Alinear Verticalmente*/
+      align-items: center ;
+       /* Cuando Desbordan los elementos (Se acomoda depende la pantalla*/
+    flex-wrap: wrap;
+}
+
+.photo-grid-container {
+display: flex;
+justify-content: center;
+
+}
+
+.photo-grid {
+    width: 80%;
+    display: flex;
+    justify-content:flex-start ;
+    /* Cuando Desbordan los elementos (Se acomoda depende la pantalla*/
+    flex-wrap: wrap;
+    /*Direccion*/
+    flex-direction:row;
+
+}
+
+.first-item {
+    /*orden - sin afectar a los elementos circundantes / a la derecha numero postivio y negativo a la izquierda*/
+    order: 1;
+    justify-content:
+    
+
+}
